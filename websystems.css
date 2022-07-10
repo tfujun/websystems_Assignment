@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    margin-left: 18%;
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Navigation bar formatting: */
+.navigationBar ul{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: -18%;
+    padding: 0px;
+    background-color: beige;
+    width: 16%;
+    border: 1px solid beige;
+    height: 100%;
+    position: fixed;
+    opacity: 1;
+}
+.navigationBar li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5% 10%;
+    text-align: left;
+    border-bottom: 1px solid beige;
+    font-size: 3vmin;
+    opacity: 1;
+}
+.navigationBar li:last-child{
+    border-bottom: none;
+}
+.navigationBar li a:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+
+/* Flavourtext Styling: */
+.travisWebsiteFlavourText{
+    color: orange;
+}
+.mathFlavourText{
+    color: orange;
+}
+.loveFlavourText {
+    color:red;
+}
+.computerScienceFlavourText{
+    color:orange;
+}
+.utsFlavourText{
+    color:lightskyblue;
+}
+.memeFlavourText{
+    color:orange;
+}
+.hardFlavourText{
+    color:blue;
+}
+.bottomOfIndexFlavourText{
+    color: orange;
+}
+.spectacularFlavourText{
+    font-weight: bold;
+}
+
+/* index page body formatting */
+.index{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+}
+.index img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    float: left;
+}
+.indexBottomButton{
+    background-color: darkorange;
+    font-size: 4vmin;
+    padding: 1%;
+    border-radius: 16px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 4px 2px;
+}
+.indexBottomButton:hover{
+    background-color: white;
+    color: darkorange;
+    border-color: darkorange;
+    border: 2px solid;
+}
+
+
+/* Future page body formatting */
+.future{
+    margin: 0;
+    padding: 1%;
+    display: grid;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.future img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    /* margin-left: 18%; */
+}
+.futureBackground{
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+
+/* Past page body formatting */
+.past{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+}
+.past img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+
+
+/* comments page table formatting */
+.comments{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+}
+.commentsTable table, td, th{
+    border: 1px solid black;
+    width: 2%;
+    vertical-align: top;
+    padding: 4px;
+}
+
+
